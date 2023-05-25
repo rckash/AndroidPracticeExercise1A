@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color1"
+    android:backgroundTint="@color/color1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageProfilePicture"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:contentDescription="@string/creator_profile_picture_desc"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/profile" />
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/roboto_mono_medium"
+        android:text="@string/creator_name"
+        android:textColor="@color/color4"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/roboto_mono_medium"
+        android:text="@string/creator_address"
+        android:textColor="@color/color4"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonEditProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/color2"
+        android:text="@string/edit_profile_label"
+        android:textAlignment="center"
+        android:textColor="@color/color4" />
+
+    <TextView
+        android:id="@+id/textAboutMeLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/color2"
+        android:fontFamily="@font/roboto_mono_medium"
+        android:paddingLeft="7dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="@string/about_me_label"
+        android:textAlignment="viewStart"
+        android:textColor="@color/color4"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textBio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/color2"
+        android:fontFamily="@font/roboto_mono_medium"
+        android:paddingLeft="7dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="@string/bio"
+        android:textAlignment="viewStart"
+        android:textColor="@color/color4"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textInterestsLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/color2"
+        android:fontFamily="@font/roboto_mono_medium"
+        android:paddingLeft="7dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="@string/interests_label"
+        android:textAlignment="viewStart"
+        android:textColor="@color/color4"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textInterests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/color2"
+        android:fontFamily="@font/roboto_mono_medium"
+        android:paddingLeft="7dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="@string/interests"
+        android:textAlignment="viewStart"
+        android:textColor="@color/color4"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textEducationLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/color2"
+        android:fontFamily="@font/roboto_mono_medium"
+        android:paddingLeft="7dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="@string/education_label"
+        android:textAlignment="viewStart"
+        android:textColor="@color/color4"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textEducation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/color2"
+        android:fontFamily="@font/roboto_mono_medium"
+        android:paddingLeft="7dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="@string/education"
+        android:textAlignment="viewStart"
+        android:textColor="@color/color4"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textExperienceLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/color2"
+        android:fontFamily="@font/roboto_mono_medium"
+        android:paddingLeft="7dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="@string/experience_label"
+        android:textAlignment="viewStart"
+        android:textColor="@color/color4"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textExperience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/color2"
+        android:fontFamily="@font/roboto_mono_medium"
+        android:paddingLeft="7dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="@string/experience"
+        android:textAlignment="viewStart"
+        android:textColor="@color/color4"
+        android:textSize="14sp" />
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AndroidPracticeExercise1A</string>
+    <string name="about_me_label">About Me</string>
+    <string name="bio">Passionate for learning. Dedicated to excellence. Dynamic and Ethical.</string>
+    <string name="interests_label">Interests</string>
+    <string name="interests">Lifting Weights, Playing PC Games</string>
+    <string name="education_label">Education</string>
+    <string name="education">Bachelor\'s Degree in Computer Science</string>
+    <string name="experience_label">Experience</string>
+    <string name="experience">2 Months of Professional Experience</string>
+    <string name="edit_profile_label">Edit Profile</string>
+    <string name="creator_address">Batangas, PH</string>
+    <string name="creator_name">RC Kashyap</string>
+    <string name="creator_profile_picture_desc">Photo of the Creator</string>
+</resources>
