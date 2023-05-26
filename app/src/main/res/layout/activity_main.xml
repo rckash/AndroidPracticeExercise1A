@@ -10,13 +10,14 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <ImageView
+    <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/imageProfilePicture"
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_gravity="center"
         android:layout_marginTop="15dp"
         android:layout_marginBottom="15dp"
+        app:shapeAppearanceOverlay="@style/circular"
         android:contentDescription="@string/creator_profile_picture_desc"
         android:scaleType="centerCrop"
         app:srcCompat="@drawable/profile" />
